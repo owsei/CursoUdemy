@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
-import { PerosonajesComponent } from './heroes/perosonajes/perosonajes.component';
+import { PersonajesComponent } from './heroes/personajes/personajes.component';
 import { MainPageComponent } from './heroes/main-page/main-page.component';
 import { HeroesService } from './heroes/services/heroes.services';
 
@@ -16,7 +16,7 @@ import { HeroesService } from './heroes/services/heroes.services';
     AppComponent,
     ContadorComponent,
     HeroeComponent,
-    PerosonajesComponent,
+    PersonajesComponent,
     MainPageComponent
   ],
   imports: [
