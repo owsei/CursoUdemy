@@ -8,7 +8,7 @@ export class HeroesService{
     private _personajes:Personaje[]=[{nombre:'Goku',poder:14000},{nombre:'Vegeta',poder:7500}];
     
     constructor(){
-        console.log('Servicio inicializado');
+        console.log('HeroesService inicializado');
     }
 
     get personajes():Personaje[]{

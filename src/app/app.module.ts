@@ -9,7 +9,7 @@ import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { PersonajesComponent } from './heroes/personajes/personajes.component';
 import { MainPageComponent } from './heroes/main-page/main-page.component';
 import { HeroesService } from './heroes/services/heroes.services';
-
+import { HttpService } from './shared/http.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,8 @@ import { HeroesService } from './heroes/services/heroes.services';
     FormsModule
   ],
   providers: [
-    HeroesService
+    HeroesService,
+    HttpService
   ],
   bootstrap: [AppComponent]
 })
